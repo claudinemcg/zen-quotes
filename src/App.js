@@ -1,6 +1,6 @@
-import logo from './logo.svg';
+import React, { Component } from 'react';
 import './App.css';
-import ZenQuote from './Zenquote'
+import ZenQuote from './ZenQuote'
 
 function App() {
   return (
