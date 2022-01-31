@@ -4,14 +4,18 @@ import axios from 'axios';
 class ZenQuote extends Component {
     constructor(props){
         super(props);
-        this.state = {quote:""}
+        this.state = {quote:" "}
     }
     
     
     componentDidMount() {
         // load data
         axios.get('https://api.github.com/zen').then(response => {
-            this.setState({quote: response.data})
+            setTimeout(
+                function(){
+                    this.setState({ quote: response.data });
+                }.bind(this),
+            3000 )
         })
         // set state with data
     }
