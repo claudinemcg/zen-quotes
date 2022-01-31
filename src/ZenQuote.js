@@ -27,6 +27,7 @@ class ZenQuote extends Component {
             <div>
                     <h1>Always remember ....</h1>
                     <p>{this.state.quote}</p>
+                    <p>-----------------</p>
             </div>
         )
     }
