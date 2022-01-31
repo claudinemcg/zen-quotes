@@ -1,11 +1,13 @@
 import React, { Component } from 'react';
 import './App.css';
-import ZenQuote from './ZenQuote'
+import GithubUserInfo from './GithubUserInfo';
+// import ZenQuote from './ZenQuote'
 
 function App() {
   return (
     <div className="App">
-      <ZenQuote />
+      {/* <ZenQuote /> */}
+      <GithubUserInfo username="claudinemcg" />
     </div>
   );
 }
