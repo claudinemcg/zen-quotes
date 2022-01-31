@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="App">
       <ZenQuote />
-      <GithubUserInfo username="claudinemcg" />
+      {/* <GithubUserInfo username="claudinemcg" /> */}
     </div>
   );
 }
